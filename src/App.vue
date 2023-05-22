@@ -37,6 +37,7 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] { appearance:textfield; }
 
 .main-container{
+  max-width: 100vw;
   display: flex;
   main{
     flex: 1 1 0;
@@ -51,19 +52,6 @@ button{
   background: none;
 }
 body::-webkit-scrollbar{
-  -webkit-appearance: none;
-}
-body::-webkit-scrollbar-thumb{
-  background-color: var(--light-stetic-green);
-  border-radius: 20px;
-  &:hover{
-    background-color: var(--dark-green);
-  }
-}
-body::-webkit-scrollbar-track{
-  border-radius: 10px;
-}
-body::-webkit-scrollbar:vertical{
-  width: 7px;
+  display: none;
 }
 </style>

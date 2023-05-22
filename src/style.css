@@ -64,7 +64,9 @@ body {
 }
 
 .container{
+  position: relative;
   display: flex;
+  left: calc(2rem + 32px);
   width: calc(100vw - (2rem + 32px));
   min-height: 100vh;
   align-items: center;
